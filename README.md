@@ -63,6 +63,3 @@ If no options (-c, -w, -l, -m) are provided, the utility will default to outputt
 -   If no filename is provided and stdin is empty or not piped, the utility attempts to use the last argument as a filename.
 -   Error handling for file reading and command-line argument parsing is minimal and may need extension depending on deployment needs.
 
----
-
-Feel free to extend this readme with additional details or customization based on your project's requirements.
