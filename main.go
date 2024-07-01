@@ -1,8 +1,7 @@
 package main
 
-import wordcount "codingChallenges/word-count"
+import wordcount "wordcount/word-count"
 
 func main() {
-	/* wordcount.GetFromStandardInput() */
 	wordcount.CountEntry()
 }
