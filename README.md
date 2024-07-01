@@ -7,7 +7,7 @@ This command-line utility provides functionality to analyze text files based on 
 To use the utility, execute the compiled binary with the following command-line arguments:
 
 ```bash
-cwc [-c] [-w] [-l] [-m] [file]
+./cwc [-c] [-w] [-l] [-m] [file]
 ```
 
 -   **-c**: Count bytes.
@@ -22,13 +22,13 @@ If no options (-c, -w, -l, -m) are provided, the utility will default to outputt
 1. Count bytes in a file:
 
     ```bash
-    cwc -c filename.txt
+    ./cwc -c filename.txt
     ```
 
 2. Count words in a file:
 
     ```bash
-    cwc -w filename.txt
+    ./cwc -w filename.txt
     ```
 
 3. Count lines in a file:
@@ -40,12 +40,12 @@ If no options (-c, -w, -l, -m) are provided, the utility will default to outputt
 4. Count characters in a file (alternative option):
 
     ```bash
-    cwc -m filename.txt
+    ./cwc -m filename.txt
     ```
 
 5. Count lines, words, and characters in a file:
     ```bash
-    cwc filename.txt
+    ./cwc filename.txt
     ```
 
 ### Features
